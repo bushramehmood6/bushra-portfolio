@@ -1,97 +1,18 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #111;
-    color: #fff;
-    line-height: 1.6;
+:root {
+  --accent: #06b6d4; /* teal-cyan */
+  --accent-2: #0ea5e9; /* neon blue */
+  --bg: #0b1220; /* dark */
 }
 
-.hero {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(135deg, #000, #002f2f);
-    color: #00ffff;
+.neon {
+  color: var(--accent-2);
 }
 
-.profile-pic {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 3px solid #00ffff;
-    margin-bottom: 15px;
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(6px);
 }
 
-h1, h2 {
-    color: #00ffff;
-}
-
-section {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    border-bottom: 1px solid #222;
-}
-
-ul {
-    list-style: square;
-    padding-left: 20px;
-}
-
-a {
-    color: #00ffff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #00ffff;
-    color: #000;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-.btn:hover {
-    background: #00cccc;
-}
-
-.contact-bar {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background: rgba(0,0,0,0.7);
-    padding: 10px 15px;
-    border-radius: 8px;
-    display: flex;
-    gap: 10px;
-}
-
-.contact-bar a {
-    color: #00ffff;
-    font-size: 0.9em;
-}
-
-footer {
-    text-align: center;
-    padding: 15px;
-    background: #000;
-    color: #ccc;
-    font-size: 0.9em;
-}
-
-/* Fade-in animation */
-.fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.8s ease-out;
-}
-
-.fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
+html {
+  scroll-behavior: smooth;
 }
