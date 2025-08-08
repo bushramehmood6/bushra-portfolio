@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bushra Mehmood – AI Journalist & Prompt Engineering Expert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero fade-in">
+        <img src="assets/icon.png" alt="Profile" class="profile-pic">
+        <h1>Bushra Mehmood</h1>
+        <p>AI Journalist | Social Media Strategist | Prompt Engineering Expert</p>
+        <a href="assets/resume.pdf" class="btn" download>📄 Download Resume</a>
+    </header>
+
+    <!-- About -->
+    <section class="fade-in">
+        <h2>About Me</h2>
+        <p>I am an AI Journalist, Social Media Strategist, and Prompt Engineering Expert with extensive experience in working with cutting-edge AI tools and creating real-world applications. My expertise spans AI-powered content creation, SEO optimization, and marketing campaigns.</p>
+    </section>
+
+    <!-- Tools -->
+    <section class="fade-in">
+        <h2>AI Tools Mastery</h2>
+        <ul>
+            <li><strong>Prompting Techniques:</strong> Magic Prompt Formula, Markdown Prompting Strategy</li>
+            <li><strong>AI Tools:</strong> Suno.ai, VAPI (voice cloning), BOLT, Claude, ThereIsAnAIForThat.com</li>
+            <li><strong>Image Generation:</strong> GROK, Phot.AI</li>
+            <li><strong>SEO & Summarization:</strong> Emily, Writesonic</li>
+            <li><strong>Data Crunching:</strong> Numerous.ai</li>
+        </ul>
+    </section>
+
+    <!-- Experience -->
+    <section class="fade-in">
+        <h2>Experience</h2>
+        <ul>
+            <li>Promotion of K1 Game</li>
+            <li>Promotion of Massage Center in Islamabad</li>
+        </ul>
+    </section>
+
+    <!-- Projects -->
+    <section class="fade-in">
+        <h2>Projects</h2>
+        <ul>
+            <li>Nannybot – Real-world AI application</li>
+            <li>AI-based News Anchors using multiple AI models</li>
+        </ul>
+    </section>
+
+    <!-- Training -->
+    <section class="fade-in">
+        <h2>Certifications & Training</h2>
+        <p>Generative AI Mastermind – OutSkill</p>
+    </section>
+
+    <!-- Contact Bar -->
+    <div class="contact-bar">
+        <a href="mailto:youremail@example.com">📧 Email</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">💼 LinkedIn</a>
+        <a href="assets/resume.pdf" download>📄 Resume</a>
+    </div>
+
+    <footer>
+        <p>© 2025 Bushra Mehmood</p>
+    </footer>
+
+    <script>
+        // Fade-in animation on scroll
+        const faders = document.querySelectorAll('.fade-in');
+        const appearOptions = { threshold: 0.1 };
+        const appearOnScroll = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) return;
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            });
+        }, appearOptions);
+        faders.forEach(fader => appearOnScroll.observe(fader));
+    </script>
+</body>
+</html>
