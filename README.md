@@ -1,15 +1,27 @@
-# Bushra Mehmood – Animated Portfolio
+# Bushra Mehmood Portfolio
 
-## Features
-- Dark + neon cyan premium theme
-- Smooth fade-in animations
-- Floating contact bar
-- Downloadable resume button
-- Sections: About, Tools, Experience, Projects, Training
+A modern dark-themed, neon-accented personal portfolio website showcasing Bushra Mehmood's expertise in AI journalism, social media strategy, and prompt engineering.
 
-## How to Deploy on GitHub Pages
-1. Create a **public repository** on GitHub.
-2. Upload all files (index.html, style.css, README.md, /assets folder).
-3. Go to **Settings → Pages**.
-4. Under "Source", choose `main` branch and `/root`.
-5. Click Save — your portfolio will be live in a few minutes.
+## 🚀 Features
+- Tailwind CSS with dark + neon blue theme
+- Glassmorphism effects
+- Fully responsive
+- Smooth scrolling navigation
+
+## 📂 File Structure
+- `index.html` — Main portfolio structure
+- `style.css` — Custom theme styles
+- `README.md` — Instructions & project details
+
+## 🌐 Hosting on GitHub Pages
+1. Create a new GitHub repository
+2. Upload `index.html` and `style.css`
+3. Commit and push
+4. Go to repository **Settings > Pages**
+5. Set branch to `main` and root folder
+6. Wait for deployment link
+
+## 📄 Customization
+- Update contact details in **index.html**
+- Replace placeholder project descriptions with real ones
+- Upload `resume.pdf` in the root to enable the download link
