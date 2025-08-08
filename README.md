@@ -1,27 +1,13 @@
-# Bushra Mehmood Portfolio
+# Bushra Mehmood - Personal Portfolio Website
 
-A modern dark-themed, neon-accented personal portfolio website showcasing Bushra Mehmood's expertise in AI journalism, social media strategy, and prompt engineering.
+A modern and premium-looking personal portfolio website for Bushra Mehmood, an expert in AI Journalism, Social Media Strategy, and Prompt Engineering.
 
-## 🚀 Features
-- Tailwind CSS with dark + neon blue theme
-- Glassmorphism effects
-- Fully responsive
-- Smooth scrolling navigation
+## Key Features
 
-## 📂 File Structure
-- `index.html` — Main portfolio structure
-- `style.css` — Custom theme styles
-- `README.md` — Instructions & project details
+- **Responsive Design:** Optimized for all screen sizes, from mobile to desktop.
+- **Dark Theme:** A sleek and professional dark theme with neon blue accents.
+- **Tailwind CSS:** Built with the utility-first CSS framework for a streamlined and clean design.
+- **Comprehensive Sections:** Includes About Me, AI Tools Mastery, Experience, Projects, Certifications, and Contact details.
+- **Easy to Edit:** All content is in a single HTML file, making it simple to update and customize.
 
-## 🌐 Hosting on GitHub Pages
-1. Create a new GitHub repository
-2. Upload `index.html` and `style.css`
-3. Commit and push
-4. Go to repository **Settings > Pages**
-5. Set branch to `main` and root folder
-6. Wait for deployment link
-
-## 📄 Customization
-- Update contact details in **index.html**
-- Replace placeholder project descriptions with real ones
-- Upload `resume.pdf` in the root to enable the download link
+This website is designed to showcase Bushra's skills and experience to potential hiring managers and collaborators.
