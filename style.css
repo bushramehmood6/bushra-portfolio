@@ -1,0 +1,14 @@
+:root{
+    --accent: #06b6d4; /* teal-cyan */
+    --accent-2: #0ea5e9; /* neon blue */
+    --bg: #0b1220; /* dark */
+}
+
+.neon{
+    color: var(--accent-2);
+}
+
+.glass{
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(6px);
+}
